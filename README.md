@@ -36,7 +36,7 @@ In our experiments we consider the same algorithms as in the main experimnt of t
 
 <img src="MP_tau=15.png" alt="15" width="1500"/>
 
-<img src="MP_tau=6433.png" alt="6487" width="1500"/>
+<img src="MP_tau=6296.png" alt="6487" width="1500"/>
 
 ## Discussion
 
