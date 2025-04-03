@@ -37,8 +37,8 @@ In our additional experiments, we consider Algorithm 3 with three different proj
 
 <img src="MP_tau=15.png" alt="15" width="1500"/>
 
-<img src="MP_tau=6433.png" alt="6487" width="1500"/>
+<img src="MP_tau=6296.png" alt="6487" width="1500"/>
 
 ## Discussion
 
-This experiments again confirm the fact that the method with Bregman projection outperforms the softmax and Euclidean projections, especially for bit values of $\tau_{\text{mix}}$.
+This experiments again confirm the fact that the method with Bregman projection outperforms the softmax and Euclidean projections. The results also confirm that smaller values of the mixing time lead to better convergence, as expected.
