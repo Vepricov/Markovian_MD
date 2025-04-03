@@ -40,4 +40,4 @@ In our experiments we consider the same algorithms as in the main experimnt of t
 
 ## Discussion
 
-This experiments again confirm the fact that the method with Bregman projection outperforms the softmax and Euclidean projections, especially for bit values of $\tau_{\text{mix}}$.
+This experiments again confirm the fact that the method with Bregman projection outperforms the softmax and Euclidean projections. The results also confirm that smaller values of the mixing time lead to better convergence, as expected.
