@@ -32,6 +32,12 @@ In our experiments we consider the same setup as in the main experimnt of the pa
 
 ## Results
 
+<img src="MP_tau=1.png" alt="1" width="1500"/>
+
+<img src="MP_tau=15.png" alt="15" width="1500"/>
+
+<img src="MP_tau=6487.png" alt="6487" width="1500"/>
+
 ## Discussion
 
 TODO
