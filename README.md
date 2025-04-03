@@ -29,7 +29,7 @@ $$[F(z, \xi)]_i := [F(z)]_i + \xi_i .$$
 
 ## Methods
 
-In our experiments we consider the same algorithms as in the main experimnt of the paper: Euclidean, Softmax and Bregman projections, but in the VI setup, i.e., we do projections for both $x$ and $y$.
+In our additional experiments, we consider Algorithm 3 with three different projections: Bregman, Euclidean and Softmax. The purpose of this experiment is to investigate the effect of the mixing time parameter on the convergence rate. The results with different mixing times are presented below.
 
 ## Results
 
