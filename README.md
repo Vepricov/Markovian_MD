@@ -23,8 +23,9 @@ In the numerical experiments, we consider the problem described above on the dif
 
 <img src="mc.jpg" alt="Markov chain" width="500"/> 
 
-Here $p$ is a unique parameter of the Markov chain, arrows denote the transitions, and $A$ and $B$ represent the states. Each state implies a unique current distribution that generates the noise. In our experiments, we assume that both of the states have a normal distribution, in particular, state $A$ generates a value from the distribution $\mathcal{N}(0.1, \sigma^2)$, state $B$ generates a value from $\mathcal{N}(-0.1, \sigma^2)$, where $\sigma$ is a varying parameter for deeper study. The generated noise $\xi$ is considered to be additive:
-$$\left[F(z, \xi)\right]_i := \left[F(z)\right]_i + \xi_i.$$
+Here $p$ is a unique parameter of the Markov chain, arrows denote the transitions, and $A$ and $B$ represent the states. Each state implies a unique current distribution that generates the noise. In our experiments, we assume that both of the states have a normal distribution, in particular, state $A$ generates a value from the distribution $\mathcal{N}(\mu, \sigma^2)$, state $B$ generates a value from $\mathcal{N}(-\mu, \sigma^2)$. For now, we the parameters of noise are constant: $\mu = 0.1, \sigma^2 = 0.01$. The generated noise $\xi$ is considered to be additive:
+
+$$[F(z, \xi)]_i := [F(z)]_i + \xi_i .$$
 
 ## Methods
 
