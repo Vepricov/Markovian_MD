@@ -9,13 +9,13 @@ $$\min\limits_{x \in \Delta_{d-1}} \max\limits_{y \in \Delta_{d-1}} f(x, y),$$
 where
 
 $$f(x, y) := x^T A y + b^T x + c^T y,$$
-$$A \in \mathbb{R}^{d \times d}, \, b \in \mathbb{R}^d, \, c \in \mathbb{R}^d.$$
+$$A \in \mathbb{R}^{d \times d}, b \in \mathbb{R}^d, c \in \mathbb{R}^d.$$
 
 Matrix $A$ is randomly generated. We also generate solutions from the simplex $x^\*, y_\*$ and take $b = -Ay^\*$ and $c = -A^T x^\*$
 
 For this problem, the operator has the following form:
 
-$$F(z) := (\nabla_x f(x, y), - \nabla_y f(x, y))^T =  (Ay + b, -A^Tx - c)^T$$
+$$F(z) := (\nabla_x f(x, y), - \nabla_y f(x, y))^T =  (Ay + b, -A^Tx - c)^T .$$
 
 ## Setup
 
@@ -28,7 +28,7 @@ $$\left[F(z, \xi)\right]_i := \left[F(z)\right]_i + \xi_i.$$
 
 ## Methods
 
-In our experiments we consider the same setup as in the main experimnt of the paper: Euclidean, Softmax and Bregman projections.
+In our experiments we consider the same algorithms as in the main experimnt of the paper: Euclidean, Softmax and Bregman projections, but in the VI setup, i.e., we do projections for both $x$ and $y$.
 
 ## Results
 
@@ -36,8 +36,8 @@ In our experiments we consider the same setup as in the main experimnt of the pa
 
 <img src="MP_tau=15.png" alt="15" width="1500"/>
 
-<img src="MP_tau=6487.png" alt="6487" width="1500"/>
+<img src="MP_tau=6433.png" alt="6487" width="1500"/>
 
 ## Discussion
 
-TODO
+This experiments again confirm the fact that the method with Bregman projection outperforms the softmax and Euclidean projections, especially for bit values of $\tau_{\text{mix}}$.
