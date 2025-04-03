@@ -11,7 +11,7 @@ where
 $$f(x, y) := x^T A y + b^T x + c^T y,$$
 $$A \in \mathbb{R}^{d \times d}, b \in \mathbb{R}^d, c \in \mathbb{R}^d.$$
 
-Matrix $A$ is randomly generated. We also generate solutions from the simplex $x^\*, y_\*$ and take $b = -Ay^\*$ and $c = -A^T x^\*$
+Matrix $A$ is randomly generated. We also generate solutions from the simplex $x_{sol}, y_{sol}$ and take $b = -Ay_{sol}$ and $c = -A^T x_{sol}$
 
 For this problem, the operator has the following form:
 
